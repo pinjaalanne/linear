@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>BG generator</title>
   </head>
   <body>
+    <form>
+      <h1>Linear Gradient Generator</h1>
+      <h2>Colors</h2>
+      <input type="color" name="color1" value="#9f5bbe" />
+      <input type="color" name="color2" value="#45bca4" />
+      <h2>Directions</h2>
+      <div class="directions">
+        <input type="radio" name="direction" id="to_bottom_right" />
+        <label for="to_bottom_right"
+          ><span class="material-symbols-outlined"> south_east </span></label
+        >
+      </div>
+    </form>
     <script src="main.js"></script>
   </body>
 </html>
